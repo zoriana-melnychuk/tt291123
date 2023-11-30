@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="/src/app/header/header.component.scss">
+
+<header class="header">
+  <a
+    class="header__logo"
+    href="#"
+  >
+    <img
+      class="header__logo-img"
+      src="../../assets/images/logo.svg"
+      alt="LOGO"
+    >
+  </a>
+  <div class="header__content">
+    <div class="currency-container">
+      <img
+        src="../../assets/images/currency-dollar.svg"
+        alt="USD"
+        class="currency-icon">
+      {{ exchangeRates?.rates.USD }}
+    </div>
+    <div class="currency-container">
+      <img
+        src="../../assets/images/currency-euro.svg"
+        alt="EUR"
+        class="currency-icon">
+      {{ exchangeRates?.rates.EUR }}
+    </div>
+  </div>
+</header>

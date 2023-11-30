@@ -1,0 +1,50 @@
+.converter-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.converter-input,
+.converter-select {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.converter-input label,
+.converter-select label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.converter-input input,
+.converter-select select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.conversion-results {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
