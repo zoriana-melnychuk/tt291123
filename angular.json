@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "/tt291123/",
+            "baseHref": "https://zoriana-melnychuk.github.io/tt291123/",
             "outputPath": "dist/tt291123",
             "index": "src/index.html",
             "browser": "src/main.ts",
