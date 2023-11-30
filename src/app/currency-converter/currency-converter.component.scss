@@ -1,0 +1,125 @@
+.converter-input {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .converter-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+
+  .converter-input-field {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    color: #333;
+
+    &:hover {
+      border: 1px solid #007bff;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px #ccc;
+    }
+  }
+}
+
+.converter-select {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .converter-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+
+  .converter-select-field {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    color: #333;
+
+    &:hover {
+      border: 1px solid #007bff;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px #ccc;
+    }
+  }
+}
+
+.validation-error {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+  .converter-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+
+  .converter-input-field {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    color: #333;
+
+    &:hover {
+      border: 1px solid #007bff;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px #ccc;
+    }
+  }
+
+
+.converter-select {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .converter-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+
+  .converter-select-field {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    color: #333;
+
+    &:hover {
+      border: 1px solid #007bff;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px #ccc;
+    }
+  }
+}
